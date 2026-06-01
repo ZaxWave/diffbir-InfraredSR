@@ -102,8 +102,9 @@ train:
   # No stage-1 SwinIR — bicubic upsampling is used as the condition.
   learning_rate: 1e-4
   # 1154 images, batch_size=256 → ~4.5 steps/epoch
-  batch_size: 8
-  num_workers: 8
+  # 6.9G/24G (bs=2) → 可撑到 bs=16 左右
+  batch_size: 16
+  num_workers: 0
   train_steps: 30000
   log_every: 50
   ckpt_every: 5000
