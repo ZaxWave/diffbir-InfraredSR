@@ -1,0 +1,5 @@
+# Validation Summary (Mon Jun  1 02:54:49 PM CST 2026)
+
+| checkpoint | PSNR ↑ | LPIPS ↓ |
+|---|---|---|
+| 05000.pt |  |  |
